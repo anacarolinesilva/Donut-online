@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duncan's Just-In-Time Donuts</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<header>
+    <h1>Pedidos de Donuts</h1>
+    <h2>Todos os donuts 50cents cada, cake or glazed.</h2>
+  </header>
+  
+  <div id="container">
+    <form name="order form" action="donut.php" method="post">
+      <div class="donut">  <label>Name</label> <br/> 
+        <input type="text" name="name" id="name"></input></div>
+    
+   <div class="donut">   <label>Number of Cake Donuts</label> <br/>
+     <input  type="text" name="cake" id="cake" onchange="calcOrder()"></input>
+  </div>
+   <div class="donut">  <label>Number of glaze donuts</label> <br/>
+     <input type="text" name="glaze" id="glaze" value="" onchange="calcOrder()"></input></div>
+   <div class="donut">  <label>Minutes until pick up</label> <br/>
+     <input type="text" name="time" id="time" value=""></input></div>
+   <div class="donut">  <label>Subtotal</label> <br/>
+     <input type="text" name="subtotal" id="subtotal" value=""></input></div>
+   
+   <div class="donut">  <label>Tax</label> <br/>
+     <input type="text" name="tax" id="tax" value=""></input></div>
+  <div class="donut">  <label>Total</label> <br/>
+     <input type="text" name="total" id="total" value=""></input></div>
+  <div class="donut"> 
+     <input type="button" name="order"value="Order" onclick="placeOrder(this.form)"></input></div>
+  
+    </form>
+  </div>
+  <footer></footer>
+</html>

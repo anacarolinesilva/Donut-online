@@ -1,0 +1,78 @@
+body{
+    background-color:rgb(164, 230, 247);
+  }
+  header{
+    background-color:  #a01d1d;
+    color:  #f0f8f8;
+    height: 6vw;
+    padding: 3vw;
+    margin-right:20%;
+    margin-left:20%;
+    
+  }
+  h1{
+    text-shadow: 1px 1px rgb(48, 211, 83);
+    font-size: 4vw;
+    margin: auto;  
+    text-align: center;
+  }
+  h2{
+    
+    font-size: 2vw;
+    margin:auto;
+    text-align: center;
+    padding-right:3%;
+  }
+  #container{
+    background-color: rgb(204, 68, 125);
+    padding-bottom:8vw;
+    margin-left:20%;
+    margin-right: 20%;
+    text-align: center;
+  
+  }
+  .donut{
+    text-align: center;
+    font-size:2vw;
+    font-weight:bold;
+    margin-top:3vw;
+  }
+  
+  form{
+    padding-top:3vw;
+    padding-right: 7%;
+    margin-right: 5%;
+    margin-left:5%;
+    text-align: center;
+   
+  }
+  label{
+    color: #050000;
+    text-align: center;
+    width:100%;
+  }
+  input{
+    width:52.5vw;
+    height:3vw;
+    background-color:  #e6fff7;
+    border-bottom: 3px solid rgb(78, 204, 89);
+    border-top: 1px solid rgb(78, 204, 89);
+    border-left:1px solid rgb(78, 204, 89);
+    border-right: 3px solid rgb(78, 204, 89);
+    font-size:2vw;
+    text-align: center;
+  }
+  input[type=button]{
+    background-color:rgb(48, 167, 48);
+    font-weight:bold;
+    width:50%;
+    text-align: center;
+  }
+  footer{ 
+    background-color:  #a01d1d;
+    color:  #270c1a;
+    height: 2vw;
+    padding: 3vw;
+    margin-right:20%;
+    margin-left:20%;
+  }
